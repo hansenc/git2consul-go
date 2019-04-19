@@ -1,6 +1,6 @@
 # git2consul-go [![Go Report Card](https://goreportcard.com/badge/github.com/KohlsTechnology/git2consul-go)](https://goreportcard.com/report/github.com/KohlsTechnology/git2consul-go)
 
-The git2consul.go tool is used to populate a [Consul](https://www.consul.io) key/value store from a git repo.
+The git2consul-go tool is used to populate a [Consul](https://www.consul.io) key/value store from a git repo.
 
 The baseline source code was forked from [go-git2consul](https://github.com/Cimpress-MCP/go-git2consul) which was
 inspired by the orginal [git2consul](https://github.com/breser/git2consul) tool.
@@ -14,7 +14,7 @@ inspired by the orginal [git2consul](https://github.com/breser/git2consul) tool.
 
 ## Installation
 
-git2consul.go comes in two variants:
+git2consul-go comes in two variants:
 * as a single binary file which after downloading can be placed in any working directory - either on the workstation (from which git2consul will be executed) or on the Consul node (depends whether access to the git repository is available from the Consul nodes or not) 
 * as a source code that can be build on the user workstation ([How to build from src?](#compiling-from-source))
 
