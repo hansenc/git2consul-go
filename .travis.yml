@@ -15,7 +15,7 @@ install:
 
 script:
   - gofmt -d .
-  - golint $(go list ./... | grep -v /vendor/)
+  - golint -set_exit_status $(go list ./... | grep -v /vendor/)
   - dep ensure -v
   - go vet $(go list ./... | grep -v /vendor/)
   - go test $(go list ./... | grep -v /vendor/)
