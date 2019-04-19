@@ -206,12 +206,12 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details.
 ### Compiling From Source
 ```
 $ dep ensure
-$ go build -o build/bin/git2consul
+$ go build -o git2consul
 ```
 
 For Development/Debugging
 ```
-$ go build -gcflags='-N -l' -o build/bin/git2consul
+$ go build -gcflags='-N -l' -o git2consul
 ```
 
 ## License
