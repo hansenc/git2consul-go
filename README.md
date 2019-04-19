@@ -1,4 +1,4 @@
-# git2consul.go
+# git2consul-go [![Go Report Card](https://goreportcard.com/badge/github.com/KohlsTechnology/git2consul-go)](https://goreportcard.com/report/github.com/KohlsTechnology/git2consul-go)
 
 The git2consul.go tool is used to populate a [Consul](https://www.consul.io) key/value store from a git repo.
 
